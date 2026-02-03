@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.3cb9d7dd.css",
+    "main.js": "/my-portfolio/static/js/main.cfdc6d8a.js",
+    "static/js/453.03fb2af9.chunk.js": "/my-portfolio/static/js/453.03fb2af9.chunk.js",
+    "static/media/password.png": "/my-portfolio/static/media/password.3d32163b0a29f7e136b9.png",
+    "static/media/profile-edit.jpg": "/my-portfolio/static/media/profile-edit.d2dff5a21f707e4118f7.jpg",
+    "static/media/qtrip.svg": "/my-portfolio/static/media/qtrip.41787e58f14e8e1967468800663d7452.svg",
+    "static/media/todo.svg": "/my-portfolio/static/media/todo.ab24cc977fb29833d879fcee39f3c562.svg",
+    "static/media/expensetracker.svg": "/my-portfolio/static/media/expensetracker.48e785e79891f9e59e83e48cde5efed3.svg",
+    "static/media/mprompt.svg": "/my-portfolio/static/media/mprompt.51606525420a3083707c593f9bcf229b.svg",
+    "static/media/meats.svg": "/my-portfolio/static/media/meats.81e6c8ac370668049aa3b624795c3c10.svg",
+    "index.html": "/my-portfolio/index.html",
+    "main.3cb9d7dd.css.map": "/my-portfolio/static/css/main.3cb9d7dd.css.map",
+    "main.cfdc6d8a.js.map": "/my-portfolio/static/js/main.cfdc6d8a.js.map",
+    "453.03fb2af9.chunk.js.map": "/my-portfolio/static/js/453.03fb2af9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cb9d7dd.css",
+    "static/js/main.cfdc6d8a.js"
+  ]
+}
