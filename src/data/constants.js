@@ -1,169 +1,165 @@
-import mprompt from "../assets/mprompt.png";
+import mprompt from "../assets/mprompt.svg";
 import password from "../assets/password.png";
-import expensetracker from "../assets/expensetracker.png";
-import todo from "../assets/todo.png";
-import qtrip from "../assets/qtrip.png";
-import meats from "../assets/m-eats.png";
+import expensetracker from "../assets/expensetracker.svg";
+import todo from "../assets/todo.svg";
+import qtrip from "../assets/qtrip.svg";
+import meats from "../assets/meats.svg";
 
 export const heroDetails = {
-  name: "Mahitha Rammohan",
+  name: "Jeyasri Sathyamoorthy",
   roles: [
-    "Full Stack Developer",
-    "Mobile App Developer",
-    "UI/UX Designer",
-    "Programmer",
+    "Doctoral Research Scientist",
+    // "Mobile App Developer",
+    // "UI/UX Designer",
+    // "Programmer",
   ],
 };
 
 export const experience = [
   {
-    year: "Jun 2023 - Jul 2024",
-    role: "Software Analyst",
-    company: "Bounteous",
+    year: "Jan 2024 - Present",
+    role: "Doctoral Research Scientist",
+    company: "George Mason University",
     description:
-      "Developed multiple projects using ReactJS, React Native, Java, Spring Boot, SwiftUI, and SAP Hybris, significantly improving client satisfaction and reducing project delivery times. Collaborated with cross-functional teams and US clients, efficiently resolving tasks and incidents, and actively participating in knowledge transfer sessions and status meetings.",
+      "Led a translational ovarian cancer project that uncovered mitochondrial pathways driving chemotherapy resistance and developed robust drug-resistant models, increasing assay reproducibility by 40%. Executed high-throughput molecular profiling and integrated omics data to accelerate biomarker and therapeutic target discovery, reducing experimental turnaround time by 30%. Collaborated across disciplines to translate lab findings clinically, enhanced data compliance through GLP-aligned SOPs, and delivered 10+ publication-ready figures supporting impactful scientific communication.",
     technologies: [
-      "ReactJS",
-      "React Native",
-      "Node.js",
-      "Java",
-      "SwiftUI",
-      "MongoDB",
+      "Experimental design",
+      "Molecular assays",
+      "Data integration",
+      "Statistical analysis",
+      "SOP documentation",
     ],
   },
   {
-    year: "Jan 2023 - May 2023",
-    role: "Software Intern",
-    company: "Bounteous",
+    year: "Jan 2024 - Present",
+    role: "Graduate Teaching Assistant",
+    company: "George Mason University",
     description:
-      "Developed over 10 applications using the MERN stack, including a dynamic travel website- QTrip, an e-commerce website- QKart, showcasing proficiency in MongoDB, React, and Node.js. Additionally, received comprehensive training in Java and JavaScript, which was applied to contribute to the QMoney project, enhancing its financial management functionalities.",
-    technologies: ["MongoDB", "ReactJS", "Node.js", "Java", "Express"],
+      "Supervised and mentored 200+ undergraduate students, increasing laboratory performance scores by 95% through structured demonstrations and guidance. Redesigned lab preparation workflows, cutting setup time by 50% and significantly improving instructional efficiency. Enforced strict safety and protocol compliance, achieving zero laboratory incidents throughout the semester.",
+    technologies: ["Student supervision", "Workflow optimization", "Instructional efficiency", "Safety enforcement", "Protocol compliance"],
   },
   {
-    year: "May 2022 - Jun 2022",
-    role: "Software Intern",
-    company: "Zoho",
+    year: "May 2023 - Dec 2023",
+    role: "Graduate Research Assistant",
+    company: "George Mason University",
     description:
-      "Created individual and organizational password managers using Java and JDBC, incorporating SHA-256 and AES encryption algorithms to ensure strong security and confidentiality of sensitive information. Enhanced data retrieval speed and secured storage.",
-    technologies: ["Java", "JDBC", "MySQL", "Cryptography"],
+      "Supported PhD researchers in molecular biology and oncology projects, ensuring timely data generation and analysis for 3+ studies. Performed 50+ molecular assays, optimized workflows to increase throughput by 30%, and improved data quality with rigorous validation, reducing error rates by 25%. Handled biospecimens and conducted laboratory analysis for clinical research, maintaining protocol compliance and accurate data reporting for 50+ samples.",
+    technologies: ["Molecular assays", "Workflow optimization", "Data validation", "Biospecimen handling","Protocol compliance"],
   },
   {
-    year: "Oct 2021 - Nov 2021",
-    role: "Web Developer Intern",
-    company: "Be A Petizen",
+    year: "Jan 2021 - Feb 2021",
+    role: "Bioprocessing and chromatography Intern",
+    company: "GE Healthcare",
     description:
-      "Designed and developed the official website for Be a Petizen, a dog adoption platform. Implemented features including pet profiles, adoption forms, and payment gateway integration, leading to a notable increase in adoption inquiries.",
+      "Operated AKTA Avant systems for large-scale protein purification, consistently achieving over 90% purity with UNICORN software. Collaborated on workflow optimizations that boosted protein yield by 25% and executed detailed column packing and system calibration protocols for pilot-scale processes. Applied GMP-aligned standards to ensure batch consistency and data traceability throughout purification operations.",
     technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "PHP",
-      "WordPress",
-      "WooCommerce",
+      "Protein purification",
+      "Chromatography workflows",
+      "System calibration",
+      "Yield optimization",
+      "GMP compliance",
+    ],
+  },
+  {
+    year: "Jun 2019 - Jul 2019",
+    role: "Analytical Laboratory Intern",
+    company: "Central Drug Testing Laboratory",
+    description:
+      "Conducted analytical testing on 50+ pharmaceutical samples using multiple spectroscopy platforms, supporting regulatory quality assessments. Assisted in processing 20+ analytical samples with zero documentation errors and managed calibration records for multi-instrument workflows. Maintained 100% audit-ready compliance, ensuring accurate reporting for pharmaceutical quality testing.",
+    technologies: [
+      "Analytical testing",
+      "Spectroscopy techniques",
+      "Documentation management",
+      "Calibration records",
+      "Regulatory compliance",
+    ],
+  },
+  {
+    year: "Jan 2018 - Feb 2018",
+    role: "Laboratory Associate",
+    company: "Eppendorf India Pvt. Ltd.",
+    description:
+      "Achieved high-precision quantification of biomolecules in 100+ samples with consistent reproducibility. Streamlined molecular workflows, optimizing sample processing efficiency by 20%. Trained in advanced centrifugation and precision pipetting, enhancing accuracy and reproducibility in sample handling.",
+    technologies: [
+      "Biomolecule quantification",
+      "Workflow optimization",
+      "Centrifugation systems",
+      "Precision pipetting",
+      "Sample processing",
     ],
   },
 ];
 
 export const educationData = [
   {
-    year: "2019 - 2023",
-    degree: "Bachelor of Technology in Information Technology",
-    institution: "Easwari Engineering College, Anna University",
-    score: "CGPA : 9.45",
+    year: "2024 - Present",
+    degree: "Doctor of Philosophy in Biosciences",
+    institution: "George Mason University",
+    // score: "CGPA : 9.45",
   },
   {
-    year: "2018 - 2019",
-    degree: "Higher Secondary Education",
-    institution: "Swamy's Matriculation Higher Secondary School",
-    score: "Score : 88.16%",
+    year: "2022 - 2023",
+    degree: "Master’s in biology",
+    institution: "George Mason University",
+    // score: "Score : 88.16%",
   },
   {
-    year: "2016 - 2017",
-    degree: "Secondary Education",
-    institution: "Swamy's Matriculation Higher Secondary School",
-    score: "Score : 97.2%",
+    year: "2017 - 2021",
+    degree: "Bachelor of Technology, Biotechnology",
+    institution: "Rajalakshmi Engineering College",
+    // score: "Score : 97.2%",
   },
 ];
 
 export const achievementsData = [
   {
-    title: "SECRETARY",
+    title: "Hydrolytic Degradation of Polyethylene Terephthalate by Cutinase Enzyme Derived from Fungal Biomass – Molecular Characterization",
     description:
-      "Secretary of ACM Student Chapter of Easwari Engineering College",
+      "Investigated the molecular mechanisms by which fungal cutinase enzymes facilitate the breakdown of PET plastics.",
     date: "March 2023",
   },
   {
-    title: "Academic Topper Award",
+    title: "Optimization and Modeling of Reactive Yellow Adsorption by Surface-Modified Delonix regia Seed: Non-linear Isotherm and Kinetic Parameters",
     description:
-      "Received Academic Topper Award of Easwari Engineering College",
+      "Developed and optimized a biosorption process using modified Delonix regia seeds for efficient removal of Reactive Yellow dye, analyzing adsorption kinetics and isotherms.",
     date: "December 2022",
-  },
-  {
-    title: "HEAD - PRIDE",
-    description:
-      "Head of P.R.I.D.E (Project, Research, Internship, Development, Evaluation) Activities of EEC",
-    date: "October 2022",
-  },
-  {
-    title: "DIPLOMA",
-    description: "Acquired a Diploma in FASHION TECHNOLOGY",
-    date: "November 2022",
-  },
-
-  {
-    title: "DBHPS Exam Completion",
-    description:
-      "Completed all exams conducted by DBHPS (Dakshin Bharat Hindi Prachar Sabha)",
-    date: "September 2022",
-  },
-  {
-    title: "Member of NSS",
-    description: "Volunteer of NSS (National Service Scheme)",
-    date: "August 2022",
   },
 ];
 
 export const projects = [
   {
     image: mprompt,
-    title: "MPrompt - Discovering and Sharing AI Prompts",
+    title: "Targeting Mitochondrial Survival Pathways to Reverse Cisplatin Resistance in Ovarian Cancer",
     description:
-      "Developed a web application built with Next.js and implemented features for users to create, browse, and collaborate on AI prompts, enhancing creative exploration in AI applications.",
-    technologies: ["Next.js", "React", "Tailwind CSS", "MongoDB"],
+      "Led a translational drug-resistance project investigating mitochondrial metabolism, apoptosis regulation, and ROS signaling in chemoresistance pathways. Identified and validated therapeutic targets for sensitization strategies and developed resistant cell models for preclinical drug screening. Applied pathway inhibition approaches to successfully restore chemotherapy sensitivity.",
+    technologies: ["Drug resistance models", "Pathway inhibition", "Target validation", "Apoptosis signaling","Preclinical screening"],
   },
   {
     image: meats,
-    title: "MEats - A Food Delivery Web Application",
+    title: "Vitamin K Isoform Quantification in Human Serum for Clinical Biomarker Development",
     description:
-      "Developed a food ordering web application built with the MERN stack, enabling users to browse menus, place orders, and manage their food delivery seamlessly, enhancing the overall experience.",
-    technologies: ["Node.js", "React", "MongoDB", "Express", "Bootstrap"],
+      "Developed clinical assays integrating ELISA and LC-MS/MS for quantitative biomarker analysis and validation. Demonstrated disease association and translational relevance through rigorous biomarker validation. Applied statistical modeling and data interpretation to establish clinical correlations.",
+    technologies: ["Assay development", "Biomarker validation", "Data interpretation", "Statistical modeling", "Clinical correlation"],
   },
   {
     image: qtrip,
-    title: "QTrip - Dynamic Travel Website",
+    title: "Translational Proteomics of Cancer-Derived Extracellular Vesicles",
     description:
-      "Created a dynamic travel platform using React, empowering users to explore destinations, plan itineraries, enhancing the ease and enjoyment of travel planning.",
-    technologies: ["React", "MongoDB", "Express"],
+      "Drove a biomarker discovery project using proteomic profiling of tumor-derived extracellular vesicles, identifying key diagnostic, prognostic, and predictive protein signatures. Applied findings to advance liquid biopsy research and translational diagnostics. Integrated proteomic datasets with clinical relevance frameworks to enhance diagnostic utility.",
+    technologies: ["Proteomic profiling", "Biomarker discovery", "Data integration","Liquid biopsy","Translational diagnostics"],
   },
   {
     image: todo,
-    title: "To-Do App - Task Management",
+    title: "Tumor Microenvironment Signaling and Metastatic Pathway Mapping",
     description:
-      "Developed a mobile to-do application using React Native, allowing users to create, organize, and manage tasks efficiently, enhancing productivity and task tracking on mobile devices.",
-    technologies: ["React Native"],
+      "Conducted systems-level research on cytokine signaling, EMT activation, angiogenesis, and stromal interactions in cancer. Identified key metastasis-driving pathways as targets for therapeutic intervention. Demonstrated the preclinical relevance of strategies designed to inhibit metastasis.",
+    technologies: ["Systems biology","Pathway identification","EMT analysis","Angiogenesis research","Metastasis inhibition"],
   },
   {
     image: expensetracker,
-    title: "Expense Tracker - Manage Your Finances",
+    title: "Molecular Characterization of Cancer-Associated Proteins",
     description:
-      "Built an expense tracking application using React Native for Android and iOS, also with SwiftUI for iOS, enabling users to track expenses, set budgets, and visualize spending habits across multiple platforms, promoting financial awareness and management on the go.",
-    technologies: ["React Native", "SwiftUI"],
-  },
-  {
-    image: password,
-    title: "Password Manager - Secure Credentials",
-    description:
-      "Developed a robust password manager application using Java, providing users with a secure platform to store, manage, and retrieve their credentials, enhancing security and convenience in managing personal and professional accounts.",
-    technologies: ["Java", "JDBC", "MySQL", "Cryptography"],
+      "Performed functional profiling of oncogenic proteins associated with proliferation, survival signaling, and therapy resistance. Validated targets relevant for translational oncology pipelines and therapeutic development. Integrated molecular profiling outputs with drug development strategies to advance cancer therapy.",
+    technologies: ["Functional profiling", "Target validation","Molecular oncology","Therapy resistance","Translational strategies"],
   },
 ];

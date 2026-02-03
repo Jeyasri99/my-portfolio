@@ -1,0 +1,118 @@
+<svg viewBox="0 0 1100 700" width="1100" height="700" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <!-- Background -->
+  <rect x="0" y="0" width="1100" height="700" fill="#fafdff"/>
+  <!-- ECM fibers -->
+  <g opacity="0.25">
+    <path d="M70 160 Q145 80 350 110" stroke="#51b5a9" stroke-width="13" fill="none"/>
+    <path d="M110 600 Q260 660 400 460" stroke="#51b5a9" stroke-width="12" fill="none"/>
+    <path d="M320 380 Q390 448 600 410" stroke="#51b5a9" stroke-width="11" fill="none"/>
+    <path d="M840 150 Q1070 220 930 440" stroke="#51b5a9" stroke-width="12" fill="none"/>
+    <path d="M180 220 Q390 230 560 140" stroke="#84cbc0" stroke-width="10" fill="none"/>
+    <path d="M500 680 Q970 650 870 340" stroke="#84cbc0" stroke-width="9" fill="none"/>
+  </g>
+  <!-- Tumor mass -->
+  <ellipse cx="350" cy="350" rx="120" ry="100" fill="#ffe5f2" stroke="#d84f90" stroke-width="5"/>
+  <!-- Cancer cells (round) -->
+  <g>
+    <circle cx="330" cy="370" r="28" fill="#ffb8db" stroke="#d84f90" stroke-width="2"/>
+    <circle cx="385" cy="330" r="22" fill="#f8c1e8" stroke="#d84f90" stroke-width="2"/>
+    <ellipse cx="355" cy="320" rx="18" ry="12" fill="#ffd0e6" stroke="#d84f90" stroke-width="2"/>
+    <circle cx="315" cy="330" r="17" fill="#ffd0e6" stroke="#d84f90" stroke-width="2"/>
+    <circle cx="380" cy="370" r="16" fill="#ffb8db" stroke="#d84f90" stroke-width="2"/>
+    <ellipse cx="370" cy="400" rx="14" ry="10" fill="#f8c1e8" stroke="#d84f90" stroke-width="2"/>
+  </g>
+  <!-- Cancer cells (EMT, elongated)-->
+  <g>
+    <ellipse cx="470" cy="400" rx="25" ry="11" fill="#b4baff" stroke="#475bd2" stroke-width="2" transform="rotate(-25 470 400)"/>
+    <ellipse cx="510" cy="430" rx="27" ry="12" fill="#b4baff" stroke="#475bd2" stroke-width="2" transform="rotate(-18 510 430)"/>
+    <ellipse cx="550" cy="445" rx="23" ry="10" fill="#b4baff" stroke="#475bd2" stroke-width="2" transform="rotate(-10 550 445)"/>
+    <ellipse cx="600" cy="456" rx="21" ry="10" fill="#b4baff" stroke="#475bd2" stroke-width="2" transform="rotate(-2 600 456)"/>
+  </g>
+  <!-- Arrow for EMT process (label, dashed) -->
+  <defs>
+    <marker id="arrowhead" markerWidth="11" markerHeight="8" refX="10" refY="4" orient="auto">
+      <polygon points="0 0, 11 4, 0 8" fill="#475bd2"/>
+    </marker>
+  </defs>
+  <line x1="400" y1="385" x2="465" y2="405" stroke="#475bd2" stroke-width="3" stroke-dasharray="6,5" marker-end="url(#arrowhead)"/>
+  <text x="425" y="388" font-size="17" font-weight="bold" fill="#475bd2" transform="rotate(-12 425 388)">EMT</text>
+  <!-- Blood vessel (endothelial, with gaps and cancer cells entering) -->
+  <rect x="660" y="425" width="320" height="65" rx="33" fill="#e0e8f9" stroke="#286bc4" stroke-width="6"/>
+  <!-- Endothelial cells inside vessel -->
+  <g>
+    <ellipse cx="690" cy="457" rx="19" ry="22" fill="#e0e8f9" stroke="#115eaf" stroke-width="2"/>
+    <ellipse cx="745" cy="458" rx="19" ry="22" fill="#e0e8f9" stroke="#115eaf" stroke-width="2"/>
+    <ellipse cx="800" cy="458" rx="19" ry="22" fill="#e0e8f9" stroke="#115eaf" stroke-width="2"/>
+    <ellipse cx="855" cy="457" rx="19" ry="22" fill="#e0e8f9" stroke="#115eaf" stroke-width="2"/>
+    <ellipse cx="910" cy="455" rx="18" ry="20" fill="#e0e8f9" stroke="#115eaf" stroke-width="2"/>
+    <ellipse cx="965" cy="452" rx="16" ry="20" fill="#e0e8f9" stroke="#115eaf" stroke-width="2"/>
+  </g>
+  <!-- Intravasing/migrating cancer cells in vessel -->
+  <g>
+    <ellipse cx="695" cy="475" rx="13" ry="9" fill="#b4baff" stroke="#475bd2" stroke-width="1.5"/>
+    <ellipse cx="742" cy="480" rx="14" ry="8" fill="#b4baff" stroke="#475bd2" stroke-width="1.5"/>
+    <ellipse cx="853" cy="473" rx="13" ry="7" fill="#b4baff" stroke="#475bd2" stroke-width="1.5"/>
+    <ellipse cx="910" cy="468" rx="14" ry="8" fill="#b4baff" stroke="#475bd2" stroke-width="1.5"/>
+  </g>
+  <line x1="580" y1="450" x2="670" y2="457" stroke="#5e5e6d" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="640" y="430" font-size="17" font-weight="bold" fill="#333">Metastasis</text>
+  <!-- Endothelial label -->
+  <text x="900" y="505" font-size="12" fill="#115eaf">Endothelial Cells</text>
+  <!-- Fibroblasts -->
+  <g>
+    <ellipse cx="188" cy="440" rx="30" ry="15" fill="#ffefc7" stroke="#e0b314" stroke-width="2" transform="rotate(-12 188 440)"/>
+    <ellipse cx="150" cy="185" rx="35" ry="16" fill="#ffefc7" stroke="#e0b314" stroke-width="2" transform="rotate(10 150 185)"/>
+    <ellipse cx="475" cy="230" rx="27" ry="13" fill="#ffefc7" stroke="#e0b314" stroke-width="2" transform="rotate(23 475 230)"/>
+    <text x="170" y="470" font-size="13" fill="#e0b314" font-weight="bold">Fibroblast</text>
+  </g>
+  <!-- Immune cells (round, blue) -->
+  <g>
+    <circle cx="470" cy="180" r="18" fill="#c9e4fa" stroke="#2566ac" stroke-width="2"/>
+    <circle cx="200" cy="125" r="13" fill="#c9e4fa" stroke="#2566ac" stroke-width="2"/>
+    <circle cx="235" cy="380" r="13" fill="#c9e4fa" stroke="#2566ac" stroke-width="2"/>
+    <text x="492" y="184" font-size="13" fill="#2566ac" font-weight="bold">Immune cell</text>
+  </g>
+  <!-- Signaling pathway arrows (curved/dashed, different directions) -->
+  <g stroke="#b95e16" stroke-width="2.8" fill="none" stroke-dasharray="6,7" marker-end="url(#arrowhead)">
+    <!-- Fibroblast to tumor -->
+    <path d="M184 436 Q260 400 325 375"/>
+    <!-- Tumor to immune cell -->
+    <path d="M345 350 Q410 220 470 180"/>
+    <!-- Immune cell to tumor -->
+    <path d="M480 180 Q410 310 370 340"/>
+    <!-- Fibroblast to immune cell -->
+    <path d="M150 185 Q190 200 200 125"/>
+    <!-- Tumor to fibroblast -->
+    <path d="M335 345 Q245 200 150 185"/>
+    <!-- Tumor to endothelial cell -->
+    <path d="M420 390 Q570 420 680 457"/>
+  </g>
+  <text x="230" y="240" font-size="17" font-weight="bold" fill="#b95e16" transform="rotate(-26 230 240)">Signaling Pathways</text>
+  <!-- Microenvironment label -->
+  <text x="80" y="340" font-size="26" font-weight="bold" fill="#ba4695">Tumor Microenvironment</text>
+  <!-- Metastasis arrow label -->
+  <text x="810" y="370" font-size="17" font-weight="bold" fill="#475bd2">Invasion into vessel</text>
+  <!-- ECM label -->
+  <text x="100" y="600" font-size="13" fill="#51b5a9" font-weight="bold">Extracellular Matrix</text>
+  <!-- Map inset: metastatic process -->
+  <g>
+    <rect x="860" y="570" width="230" height="100" rx="26" fill="#e9f8f1" stroke="#449872" stroke-width="3"/>
+    <!-- Primary tumor (pink mass) -->
+    <ellipse cx="900" cy="620" rx="26" ry="18" fill="#ffe4f2" stroke="#d84f90" stroke-width="2"/>
+    <ellipse cx="900" cy="620" rx="10" ry="7" fill="#fdc4d7"/>
+    <text x="880" y="650" font-size="12" fill="#ba4695">Primary Tumor</text>
+    <!-- Blood vessel path (blue) -->
+    <rect x="940" y="615" width="70" height="15" rx="7.5" fill="#cddfea" stroke="#286bc4" stroke-width="2"/>
+    <!-- Circulating cell (moving right) -->
+    <ellipse cx="970" cy="622" rx="7" ry="4" fill="#b4baff" stroke="#475bd2" stroke-width="1"/>
+    <!-- Arrow from tumor to vessel -->
+    <line x1="926" y1="620" x2="940" y2="622" stroke="#475bd2" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <!-- Secondary site (pink circle) -->
+    <ellipse cx="1040" cy="622" rx="12" ry="9" fill="#ffe4f2" stroke="#d84f90" stroke-width="2"/>
+    <ellipse cx="1040" cy="622" rx="5" ry="3" fill="#fdc4d7"/>
+    <!-- Arrow from vessel to secondary site -->
+    <line x1="1010" y1="622" x2="1028" y2="622" stroke="#475bd2" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="1010" y="650" font-size="12" fill="#ba4695">Secondary Metastasis</text>
+    <text x="970" y="595" font-size="17" font-weight="bold" fill="#449872">Metastatic Process</text>
+  </g>
+</svg>

@@ -15,17 +15,17 @@ const Contact = () => {
         Get in <span className="text-blue-700 font-medium">Touch</span>
       </motion.h1>{" "}
       <div className="flex align-center justify-center ">
-        <a
+        {/* <a
           className="mx-4 text-4xl hover:text-gray-400"
           href="https://github.com/mahitha-1310?tab=repositories"
           target="_blank"
           rel="noreferrer"
         >
           <FaGithub />
-        </a>
+        </a> */}
         <a
           className="mx-4 text-4xl hover:text-gray-400"
-          href="mailto:mahitha.rammohan@gmail.com"
+          href="mailto:jeyasrisathya6@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
@@ -33,7 +33,7 @@ const Contact = () => {
         </a>
         <a
           className="mx-4 text-4xl hover:text-gray-400"
-          href="https://www.linkedin.com/in/mahitha-rammohan-607417210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          href="https://www.linkedin.com/in/jeyasrisathyamoorthy"
           target="_blank"
           rel="noreferrer"
         >
@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="space-y-2">
               <p className="text-neutral-400">
                 <a
-                  href="https://drive.google.com/file/d/11ZfWQoo1_zkhTHrLrLcsWm0HSlBM8dE_/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Lenzvkas83dqH4QgGWDWi06zDh9HZnZ3/view?usp=drivesdk"
                   target="_blank"
                   rel="noreferrer"
                 >

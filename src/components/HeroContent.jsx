@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile-edit.jpg";
 import Typewriter from "typewriter-effect";
 import { heroDetails } from "../data/constants";
 import { motion } from "framer-motion";
@@ -43,7 +43,7 @@ const HeroContent = () => {
                 <div className="space-y-2">
                   <p className="text-neutral-400">
                     <a
-                      href="https://drive.google.com/file/d/11ZfWQoo1_zkhTHrLrLcsWm0HSlBM8dE_/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1Lenzvkas83dqH4QgGWDWi06zDh9HZnZ3/view?usp=drivesdk"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -71,7 +71,7 @@ const HeroContent = () => {
             <img
               className="rounded-full relative p-4"
               src={profile}
-              alt="Mahitha Rammohan"
+              alt="Jeyasri Sathyamoorthy"
             />
           </motion.div>
         </div>

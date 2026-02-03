@@ -25,7 +25,7 @@ function App() {
 
       <div className="container my-16 px-8 mx-auto">
         <HeroContent />
-        <Technologies />
+        {/* <Technologies /> */}
         <Experience />
         <Projects />
         <Education />

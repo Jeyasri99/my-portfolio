@@ -1,0 +1,87 @@
+<svg width="900" height="500" viewBox="0 0 900 500" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+
+  <!-- Blood tube -->
+  <rect x="80" y="75" width="60" height="170" rx="20" fill="#fff" stroke="#B71C1C" stroke-width="4"/>
+  <rect x="80" y="75" width="60" height="40" rx="12" fill="#e3e3e3" stroke="#999" stroke-width="2"/>
+  <rect x="93" y="160" width="34" height="70" rx="16" fill="#f5aeb2" stroke="#b71c1c" stroke-width="2"/>
+  <text x="110" y="270" text-anchor="middle" font-size="16" fill="#B71C1C" font-weight="bold">Human</text>
+  <text x="110" y="288" text-anchor="middle" font-size="16" fill="#B71C1C" font-weight="bold">Serum</text>
+
+  <!-- Arrow from tube to chromatogram -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4e6ec4"/>
+    </marker>
+  </defs>
+  <line x1="140" y1="160" x2="230" y2="320" stroke="#4e6ec4" stroke-width="8" marker-end="url(#arrowhead)" />
+
+  <!-- Chromatogram axis -->
+  <rect x="250" y="300" width="540" height="150" fill="#f4faff" stroke="#205080" stroke-width="2"/>
+  <line x1="270" y1="420" x2="770" y2="420" stroke="#205080" stroke-width="3"/>
+  <line x1="270" y1="420" x2="270" y2="320" stroke="#205080" stroke-width="3"/>
+
+  <!-- Vitamin K isoform peaks -->
+  <!-- K1 -->
+  <polygon points="325,420 330,370 340,420" fill="#8ddbe0" stroke="#02777e" stroke-width="3"/>
+  <text x="335" y="440" font-size="15" fill="#02777e" text-anchor="middle">K1</text>
+  <!-- K2 -->
+  <polygon points="405,420 415,390 425,420" fill="#a4e06a" stroke="#568e19" stroke-width="3"/>
+  <text x="415" y="440" font-size="15" fill="#568e19" text-anchor="middle">K2</text>
+  <!-- MK-4 -->
+  <polygon points="525,420 535,360 545,420" fill="#f9cf5b" stroke="#c47a11" stroke-width="3"/>
+  <text x="535" y="440" font-size="15" fill="#c47a11" text-anchor="middle">MK-4</text>
+  <!-- MK-7 -->
+  <polygon points="700,420 720,335 740,420" fill="#c59af9" stroke="#7a2ec4" stroke-width="3"/>
+  <text x="720" y="440" font-size="15" fill="#7a2ec4" text-anchor="middle">MK-7</text>
+
+  <!-- Simple icons (molecules) for each isoform -->
+  <!-- K1: 2 ring benzene + tail -->
+  <g>
+    <circle cx="335" cy="340" r="14" stroke="#02777e" stroke-width="2" fill="#8ddbe0"/>
+    <circle cx="352" cy="340" r="7" stroke="#02777e" stroke-width="2" fill="#fff"/>
+    <rect x="348" y="338" width="12" height="4" fill="#02777e"/>
+  </g>
+  <!-- K2: benzene + chain -->
+  <g>
+    <circle cx="415" cy="360" r="12" stroke="#568e19" stroke-width="2" fill="#a4e06a"/>
+    <rect x="427" y="356" width="14" height="5" fill="#568e19"/>
+    <rect x="441" y="358" width="8" height="3" fill="#568e19"/>
+  </g>
+  <!-- MK-4: two circles with staggered chain -->
+  <g>
+    <circle cx="535" cy="340" r="11" stroke="#c47a11" stroke-width="2" fill="#f9cf5b"/>
+    <circle cx="549" cy="340" r="6" stroke="#c47a11" stroke-width="2" fill="#fff"/>
+    <rect x="553" y="338" width="10" height="4" fill="#c47a11"/>
+  </g>
+  <!-- MK-7: circle + dotted chain -->
+  <g>
+    <circle cx="720" cy="315" r="11" stroke="#7a2ec4" stroke-width="2" fill="#c59af9"/>
+    <rect x="732" y="313" width="4" height="4" fill="#7a2ec4"/>
+    <rect x="738" y="313" width="4" height="4" fill="#7a2ec4"/>
+    <rect x="744" y="313" width="4" height="4" fill="#7a2ec4"/>
+    <rect x="750" y="313" width="4" height="4" fill="#7a2ec4"/>
+  </g>
+  <text x="500" y="325" font-size="17" font-weight="bold" fill="#205080" text-anchor="middle">Analytical Chromatogram</text>
+  <text x="500" y="470" font-size="17" fill="#205080" text-anchor="middle">Quantification of Vitamin K Isoforms</text>
+
+  <!-- Clinical/doctor icon -->
+  <g>
+    <!-- Body -->
+    <rect x="830" y="240" width="30" height="65" rx="13" fill="#d3ebfa" stroke="#2a93cb" stroke-width="2"/>
+    <!-- Head -->
+    <circle cx="845" cy="220" r="22" fill="#fbeee6" stroke="#d1b09c" stroke-width="2"/>
+    <!-- Arms -->
+    <path d="M831,260 Q823,275 845,290 Q867,275 859,260" stroke="#2a93cb" stroke-width="5" fill="none"/>
+    <!-- Clipboard -->
+    <rect x="810" y="310" width="30" height="38" rx="4" fill="#fffbe8" stroke="#f6c72e" stroke-width="2" />
+    <rect x="819" y="315" width="14" height="5" fill="#ede6c7"/>
+    <text x="825" y="334" font-size="10" fill="#7a6336" font-weight="bold" transform="rotate(-6 825,334)">Biomarker</text>
+    <text x="824" y="345" font-size="10" fill="#7a6336" font-weight="bold" transform="rotate(-6 824,345)">Development</text>
+    <!-- Stethoscope -->
+    <path d="M840,240 Q845,250 850,240" stroke="#226" stroke-width="3" fill="none"/>
+    <circle cx="845" cy="245" r="2" fill="#226"/>
+  </g>
+  <text x="835" y="380" font-size="15" fill="#226" text-anchor="middle">Clinician</text>
+  <text x="870" y="355" font-size="16" fill="#226" font-weight="bold" transform="rotate(-12 870,355)">Clinical Application</text>
+
+</svg>

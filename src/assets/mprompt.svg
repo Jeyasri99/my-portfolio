@@ -1,0 +1,85 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <!-- Cell boundary -->
+  <ellipse cx="450" cy="300" rx="300" ry="200" fill="#f2f7fc" stroke="#336ea8" stroke-width="4"/>
+  <text x="420" y="130" font-size="24" font-weight="bold" fill="#224466">Ovarian Cancer Cell</text>
+
+  <!-- Mitochondrion -->
+  <ellipse cx="450" cy="280" rx="120" ry="60" fill="#fff0d9" stroke="#dfa94a" stroke-width="4"/>
+  <ellipse cx="450" cy="280" rx="110" ry="50" fill="none" stroke="#dfa94a" stroke-width="2" stroke-dasharray="8,6"/>
+  <text x="430" y="255" font-size="16" fill="#bf7c12">Mitochondria</text>
+
+  <!-- Survival Pathways inside mitochondria -->
+  <g>
+    <rect x="355" y="263" width="70" height="28" rx="8" fill="#d9eafc" stroke="#204080" stroke-width="2"/>
+    <text x="365" y="283" font-size="12" fill="#204080">BCL-2</text>
+    <rect x="445" y="263" width="70" height="28" rx="8" fill="#d4efdf" stroke="#257a45" stroke-width="2"/>
+    <text x="455" y="283" font-size="12" fill="#257a45">OXPHOS</text>
+    <rect x="400" y="302" width="100" height="28" rx="8" fill="#fdebd3" stroke="#b9770e" stroke-width="2"/>
+    <text x="410" y="322" font-size="12" fill="#b9770e">ROS detoxification</text>
+  </g>
+  <text x="390" y="337" font-size="14" font-weight="bold" fill="#732b68" transform="rotate(-12 410,337)">Mitochondrial Survival Pathways</text>
+
+  <!-- Cisplatin molecules outside -->
+  <g stroke="#1976d2" fill="#bbdefb">
+    <circle cx="180" cy="300" r="14"/>
+    <circle cx="160" cy="350" r="8"/>
+    <circle cx="210" cy="250" r="8"/>
+    <circle cx="200" cy="380" r="12"/>
+    <text x="166" y="304" font-size="12" fill="#1976d2">Cisplatin</text>
+  </g>
+  <!-- Arrows of cisplatin, some getting blocked -->
+  <g stroke="#1976d2" stroke-width="3" marker-end="url(#arrow)">
+    <!-- Blocked arrows -->
+    <line x1="194" y1="300" x2="320" y2="300"/>
+    <line x1="168" y1="350" x2="300" y2="320"/>
+    <line x1="222" y1="250" x2="315" y2="265"/>
+    <!-- Successful entry (after inhibition) -->
+    <line x1="205" y1="380" x2="350" y2="340" stroke-dasharray="6,4"/>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1976d2"/>
+    </marker>
+  </defs>
+
+  <!-- Block lines showing resistance -->
+  <g stroke="#e53935" stroke-width="4">
+    <line x1="320" y1="300" x2="340" y2="295"/>
+    <line x1="300" y1="320" x2="340" y2="325"/>
+    <line x1="315" y1="265" x2="340" y2="275"/>
+  </g>
+  <text x="245" y="220" font-size="16" font-weight="bold" fill="#c62828">Cisplatin Resistance</text>
+
+  <!-- Targeted drug inhibitor -->
+  <g>
+    <ellipse cx="525" cy="375" rx="32" ry="16" fill="#fadbd8" stroke="#cb4335" stroke-width="3"/>
+    <text x="506" y="381" font-size="13" fill="#cb4335">Targeted Drug</text>
+    <!-- Inhibition lines "X" on pathways -->
+    <text x="395" y="276" font-size="22" fill="#cb4335" font-weight="bold" transform="rotate(-20 395,276)">✕</text>
+    <text x="483" y="278" font-size="22" fill="#cb4335" font-weight="bold" transform="rotate(-20 483,278)">✕</text>
+    <text x="483" y="320" font-size="22" fill="#cb4335" font-weight="bold" transform="rotate(-20 483,320)">✕</text>
+  </g>
+  <text x="550" y="420" font-size="16" font-weight="bold" fill="#cb4335">Sensitization</text>
+  <line x1="540" y1="390" x2="590" y2="410" stroke="#cb4335" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Cisplatin entering and apoptosis (fragmenting nucleus) -->
+  <g>
+    <ellipse cx="670" cy="300" rx="42" ry="26" fill="#f2e5f5" stroke="#9b59b6" stroke-width="3"/>
+    <!-- DNA fragmentation: small broken lines -->
+    <line x1="650" y1="295" x2="664" y2="305" stroke="#6c3483" stroke-width="3"/>
+    <line x1="660" y1="310" x2="674" y2="300" stroke="#6c3483" stroke-width="3"/>
+    <line x1="680" y1="295" x2="692" y2="312" stroke="#6c3483" stroke-width="3"/>
+    <line x1="680" y1="320" x2="695" y2="308" stroke="#6c3483" stroke-width="3"/>
+    <!-- Apoptotic blebs -->
+    <ellipse cx="705" cy="260" rx="7" ry="4" fill="#eedcf4" stroke="#9b59b6" stroke-width="1.5"/>
+    <ellipse cx="730" cy="290" rx="6" ry="4" fill="#eedcf4" stroke="#9b59b6" stroke-width="1.5"/>
+    <ellipse cx="695" cy="340" rx="7" ry="5" fill="#eedcf4" stroke="#9b59b6" stroke-width="1.5"/>
+    <ellipse cx="710" cy="314" rx="5" ry="3" fill="#eedcf4" stroke="#9b59b6" stroke-width="1.5"/>
+    <!-- Successful cisplatin arrow -->
+    <line x1="400" y1="360" x2="670" y2="300" stroke="#1976d2" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="8,4"/>
+    <!-- Cisplatin in apoptosis area -->
+    <circle cx="689" cy="313" r="10" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+    <text x="683" y="315" font-size="12" fill="#1976d2">C</text>
+  </g>
+  <text x="710" y="240" font-size="17" font-weight="bold" fill="#6c3483">Apoptosis</text>
+</svg>
